@@ -486,6 +486,23 @@ onUnmounted(() => {
               <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
               <span>Aha~</span>
             </div>
+            <div class="p-4 text-center">
+              为爱发电不容易,自愿赞助喔<br>没条件的就不要赞助了喔~
+            </div>
+            <div class="flex justify-center items-center dashang">
+              <div>
+                <img src="@assets/image/wx.jpg" alt="">
+                <p class="text-center">
+                  微信
+                </p>
+              </div>
+              <div>
+                <img src="@assets/image/zfb.jpg" alt="">
+                <p class="text-center">
+                  支付宝
+                </p>
+              </div>
+            </div>
           </template>
           <template v-else>
             <div>
@@ -558,3 +575,11 @@ onUnmounted(() => {
     </footer>
   </div>
 </template>
+<style scoped>
+.dashang{
+  display: flex;
+}
+.dashang img{
+  max-width: 150px;
+}
+</style>

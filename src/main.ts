@@ -16,7 +16,6 @@ async function bootstrap() {
   setupI18n(app)
 
   await setupRouter(app)
-
   app.mount('#app')
 }
 

@@ -28,6 +28,7 @@ export default defineConfig((env) => {
     resolve: {
       alias: {
         '@': path.resolve(process.cwd(), 'src'),
+        '@assets': path.resolve(process.cwd(), 'src/assets'),
       },
     },
     plugins: setupPlugins(viteEnv),
